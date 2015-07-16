@@ -12,5 +12,5 @@ language Japan
 プルリクエストなども好きに送りつけてください...  
 
 Node.js テストコード  
-test01/ => httpdサーバーを作って、hellow,world.    
-test02/ => ejs テンプレートのテスト.  
+nodetest/test01/ => httpdサーバーを作って、hellow,world.    
+nodetest/test02/ => ejs テンプレートのテスト.  
