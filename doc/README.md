@@ -88,8 +88,8 @@ hogehogehoge
 | echo "hello" | printf("hello") | console.log("hello") | System.out.printf("hello") |
 ```
    
-| php | C | java script |
-|:-----------|------------:|:------------:|
+| php | C | java script | Java |
+|:-----------|------------:|:------------:|:------------:|
 | echo "hello" | printf("hello") | console.log("hello") | System.out.printf("hello") |
 
 \:smile:
