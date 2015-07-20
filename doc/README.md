@@ -66,17 +66,16 @@ hogehogehoge
 ```
   
 ```
-[google]:(http://google.com/ "Google")  
-[yahoo]:(http://search.yahoo.com/ "Yahoo Search")  
-[msn]:(http://search.msn.com/ "MSN Search")  
-[codelike]:(http://codelike.info/ "CodeLike")  
+[google](http://google.com/ "Google")  
+[yahoo](http://search.yahoo.com/ "Yahoo Search")  
+[msn](http://search.msn.com/ "MSN Search")  
+[codelike](http://codelike.info/ "CodeLike")  
 ```
-    
-[google]:(http://google.com/ "Google")  
-[yahoo]:(http://search.yahoo.com/ "Yahoo Search")  
-[msn]:(http://search.msn.com/ "MSN Search")  
-[codelike]:(http://codelike.info/ "CodeLike")  
-
+  
+[google](http://google.com/ "Google")  
+[yahoo](http://search.yahoo.com/ "Yahoo Search")  
+[msn](http://search.msn.com/ "MSN Search")  
+[codelike](http://codelike.info/ "CodeLike")    
   
 ##エスケープ
 バzクスラッシュ = \
