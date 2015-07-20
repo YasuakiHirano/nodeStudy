@@ -79,7 +79,12 @@ hogehogehoge
 [codelike](http://codelike.info/ "CodeLike")    
   
 ##エスケープ
-バzクスラッシュ = \
+バックスラッシュ = \
+
+##テーブル
+| php | C | java script |
+|:-----------|------------:|:------------:|
+| echo "hello" | printf("hello") | console.log("hello") |
 
 \:smile:
 \:smile:
