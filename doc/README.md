@@ -1,6 +1,7 @@
 #Markdown記法のテスト  
 markdown記法のreadmeを書くテスト  
 参考にさせていただきました。  
+=> https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 => http://codechord.com/2012/01/readme-markdown/  
 => http://qiita.com/Qiita/items/c686397e4a0f4f11683d#%E7%B5%B5%E6%96%87%E5%AD%97
   
