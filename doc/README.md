@@ -82,9 +82,15 @@ hogehogehoge
 バックスラッシュ = \
 
 ##テーブル
+```
+| php | C | java script | Java |
+|:-----------|------------:|:------------:|:------------:|
+| echo "hello" | printf("hello") | console.log("hello") | System.out.printf("hello") |
+```
+   
 | php | C | java script |
 |:-----------|------------:|:------------:|
-| echo "hello" | printf("hello") | console.log("hello") |
+| echo "hello" | printf("hello") | console.log("hello") | System.out.printf("hello") |
 
 \:smile:
 \:smile:
