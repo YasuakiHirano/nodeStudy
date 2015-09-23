@@ -6,6 +6,9 @@
     </head>
     <body>
         <div> 
+            <a href="https://github.com/YasuakiHirano/pgfun/tree/master/src/angulartest">this source</a>
+        </div> 
+        <div> 
             <h3>test01</h3>
              演算子が使えるっぽい<br/>
              <ul>
@@ -43,6 +46,45 @@
                         <p>{{i}}</p>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div> 
+            <h3>test03</h3>
+            <h4>フィルタかけれるってさ</h4>
+            <div ng-controller="FruitListCtrl">
+                検索:<input ng-model="query" />
+                <ul>
+                    <li ng-repeat="fruit in fruits | filter:query">
+                        <p>{{fruit.name}}
+                        <span>&nbsp;{{fruit.color}}</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div> 
+            <h3>test04</h3>
+            <h4>並び順決めれるってさ</h4>
+            <div ng-controller="FruitListCtrl">
+                <ul>
+                    <li ng-repeat="fruit in fruits | orderBy:orderProp">
+                        <p>{{fruit.name}}
+                        <span>&nbsp;{{fruit.color}}</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div> 
+            <h3>test05</h3>
+            <h4>jsonファイルにデータを定義していて呼び出す</h4>
+            <div ng-controller="DrinkListCtrl">
+                <table style="border:1px solid #000000;">
+                    <tr ng-repeat="drink in drinks | orderBy:orderProp">
+                        <td style="border:1px solid #000000;padding:8px;">no:{{drink.no}}</td>
+                        <td style="border:1px solid #000000;padding:8px;">name:{{drink.name}}</td>
+                        <td style="border:1px solid #000000;padding:8px;">company:{{drink.company}}</td>
+                        <td style="border:1px solid #000000;padding:8px;">url:<a href="{{drink.url}}">{{drink.url}}</a></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </body>

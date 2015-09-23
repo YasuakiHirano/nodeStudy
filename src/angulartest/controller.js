@@ -13,8 +13,17 @@ testApp.controller('PhoneListCtrl', function($scope){
 
 testApp.controller('FruitListCtrl', function($scope){
     $scope.fruits = [
-        {'name': 'apple', 'color': 'red'},
-        {'name': 'grape', 'color': 'violet'},
-        {'name': 'orange', 'color': 'orange'}
+        {'name': 'apple', 'color': 'red', 'no': 2},
+        {'name': 'grape', 'color': 'violet', 'no': 3},
+        {'name': 'orange', 'color': 'orange', 'no': 1}
     ];
+    $scope.orderProp = 'no';
+});
+
+testApp.controller('DrinkListCtrl', function ($scope, $http) {
+    $http.get('drink.json').success(function(data) {
+        $scope.drinks = data;
+    });
+
+    $scope.orderProp = 'no';
 });
