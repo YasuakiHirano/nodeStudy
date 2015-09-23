@@ -1,0 +1,49 @@
+<html ng-app="testApp">
+    <head>
+        <meta charset="utf-8" />
+        <script src="angular.min.js"></script>
+        <script src="controller.js"></script>
+    </head>
+    <body>
+        <div> 
+            <h3>test01</h3>
+             演算子が使えるっぽい<br/>
+             <ul>
+                 <li>{{'javascript' + '!' }}</li> 
+                 <li>1 + 2 = {{ 1 + 2 }}</li>
+                 <li>1 - 2 = {{ 1 - 2 }}</li>
+                 <li>8 / 2 = {{ 8 / 2 }}</li>
+                 <li>3 * 2 = {{ 3 * 2 }}</li>
+             </ul>
+        </div> 
+        <div> 
+            <h3>test02</h3>
+            <h4>phone</h4>
+            <div ng-controller="PhoneListCtrl"> 
+                <ul>
+                    <li ng-repeat="phone in phones">
+                        <p>{{phone.name}}
+                        <span>&nbsp;{{phone.snippet}}</span></p>
+                    </li>
+                </ul>
+            </div>
+            <h4>fruit</h4>
+            <div ng-controller="FruitListCtrl"> 
+                <ul>
+                    <li ng-repeat="fruit in fruits">
+                        <p>{{fruit.name}}
+                        <span>&nbsp;{{fruit.color}}</span></p>
+                    </li>
+                </ul>
+            </div>
+            <h4>number repeat</h4>
+            <div> 
+                <ul>
+                    <li ng-repeat="i in [0,1,2,3,4,5,6,7,8]">
+                        <p>{{i}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
